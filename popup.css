@@ -1,0 +1,120 @@
+* { box-sizing: border-box; }
+
+body {
+  width: 440px;
+  max-width: 100%;
+  margin: 0;
+  padding: 12px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 13px;
+  background: #ffffff;
+  color: #111827;
+}
+
+/* ── Header ── */
+header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+small {
+  color: #6b7280;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+/* ── Rows (checkboxes + format) ── */
+.row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 6px 0;
+}
+
+select {
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  padding: 3px 6px;
+  font-size: 12px;
+  background: #f9fafb;
+  color: #111827;
+  cursor: pointer;
+}
+
+/* ── Output textarea ── */
+textarea {
+  width: 100%;
+  height: 240px;
+  resize: vertical;
+  padding: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 12px;
+  line-height: 1.45;
+  background: #ffffff;
+  color: #111827;
+  margin-top: 8px;
+}
+
+/* ── Buttons ── */
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+button {
+  border: 1px solid #d1d5db;
+  background: #f9fafb;
+  color: #111827;
+  border-radius: 8px;
+  padding: 8px 14px;
+  min-height: 36px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+button:hover { background: #f3f4f6; }
+
+/* ── Focus visible (keyboard nav) ── */
+:focus-visible {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* ── Status bar ── */
+#status {
+  min-height: 18px;
+  margin: 8px 0 0;
+  font-size: 12px;
+}
+
+#status.success { color: #047857; }
+#status.error   { color: #b91c1c; }
+
+/* ── Dark mode ── */
+@media (prefers-color-scheme: dark) {
+  body     { background: #111827; color: #f9fafb; }
+  small    { color: #9ca3af; }
+  select   { background: #1f2937; color: #f9fafb; border-color: #374151; }
+  textarea { background: #030712; color: #f9fafb; border-color: #374151; }
+  button   { background: #1f2937; color: #f9fafb; border-color: #374151; }
+  button:hover { background: #374151; }
+
+  #status.success { color: #34d399; }
+  #status.error   { color: #f87171; }
+
+  :focus-visible { outline-color: #60a5fa; }
+}

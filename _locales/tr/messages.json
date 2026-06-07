@@ -1,0 +1,91 @@
+{
+  "appName": {
+    "message": "Safe Tab URL Lister",
+    "description": "Eklenti adı"
+  },
+  "appDescription": {
+    "message": "Tüm sekme URL'lerini yerel olarak listele ve kopyala. İzleme yok, sunucu yok, minimum izin.",
+    "description": "Chrome Web Store'da gösterilen eklenti açıklaması"
+  },
+  "loading": {
+    "message": "Yükleniyor...",
+    "description": "Sekmeler yüklenirken gösterilir"
+  },
+  "tabCount": {
+    "message": "$COUNT$ sekme",
+    "description": "Başlıkta gösterilen sekme sayısı",
+    "placeholders": {
+      "count": { "content": "$1" }
+    }
+  },
+  "includeTitles": {
+    "message": "Başlıkları da ekle",
+    "description": "Sayfa başlıklarını ekleme onay kutusu"
+  },
+  "allWindows": {
+    "message": "Tüm pencereleri dahil et",
+    "description": "Tüm Chrome pencerelerini dahil etme onay kutusu"
+  },
+  "formatLabel": {
+    "message": "Format:",
+    "description": "Çıktı formatı seçici etiketi"
+  },
+  "formatPlain": {
+    "message": "Düz URL",
+    "description": "Format seçeneği: düz URL'ler"
+  },
+  "formatMarkdown": {
+    "message": "Markdown bağlantısı",
+    "description": "Format seçeneği: Markdown [başlık](url)"
+  },
+  "formatJson": {
+    "message": "JSON",
+    "description": "Format seçeneği: JSON dizisi"
+  },
+  "formatCsv": {
+    "message": "CSV",
+    "description": "Format seçeneği: CSV"
+  },
+  "outputAriaLabel": {
+    "message": "Sekme URL listesi, salt okunur",
+    "description": "Çıktı metin alanı için erişilebilir etiket"
+  },
+  "refresh": {
+    "message": "Yenile",
+    "description": "Sekme listesini yenileme düğmesi"
+  },
+  "refreshAriaLabel": {
+    "message": "Sekme listesini yenile",
+    "description": "Yenile düğmesi için erişilebilir etiket"
+  },
+  "copy": {
+    "message": "Kopyala",
+    "description": "Listeyi panoya kopyalama düğmesi"
+  },
+  "copyAriaLabel": {
+    "message": "Listeyi panoya kopyala",
+    "description": "Kopyala düğmesi için erişilebilir etiket"
+  },
+  "copied": {
+    "message": "Liste panoya kopyalandı.",
+    "description": "Başarılı kopyalama sonrası durum mesajı"
+  },
+  "copyFailed": {
+    "message": "Kopyalama başarısız: $ERROR$",
+    "description": "Kopyalama başarısız olduğunda durum mesajı",
+    "placeholders": {
+      "error": { "content": "$1" }
+    }
+  },
+  "tabsError": {
+    "message": "Sekmeler okunamadı: $ERROR$",
+    "description": "Sekmeler alınamadığında durum mesajı",
+    "placeholders": {
+      "error": { "content": "$1" }
+    }
+  },
+  "noTabs": {
+    "message": "Sekme bulunamadı.",
+    "description": "Sıfır sekme döndüğünde gösterilir"
+  }
+}

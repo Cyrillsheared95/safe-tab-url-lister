@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Safe Tab URL Lister</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header>
+    <h1 data-i18n="appName"></h1>
+    <small id="count" aria-live="polite" aria-atomic="true" data-i18n="loading"></small>
+  </header>
+
+  <label class="row">
+    <input type="checkbox" id="includeTitles">
+    <span data-i18n="includeTitles"></span>
+  </label>
+
+  <label class="row">
+    <input type="checkbox" id="allWindows">
+    <span data-i18n="allWindows"></span>
+  </label>
+
+  <label class="row">
+    <span data-i18n="formatLabel"></span>
+    <select id="formatSelect">
+      <option value="plain"    data-i18n="formatPlain"></option>
+      <option value="markdown" data-i18n="formatMarkdown"></option>
+      <option value="json"     data-i18n="formatJson"></option>
+      <option value="csv"      data-i18n="formatCsv"></option>
+    </select>
+  </label>
+
+  <textarea id="output" spellcheck="false" readonly tabindex="-1"></textarea>
+
+  <div class="actions">
+    <button id="refresh" data-i18n="refresh" data-i18n-aria="refreshAriaLabel"></button>
+    <button id="copy"    data-i18n="copy"    data-i18n-aria="copyAriaLabel"></button>
+  </div>
+
+  <p id="status" role="status" aria-live="polite" aria-atomic="true"></p>
+
+  <script src="popup.js"></script>
+</body>
+</html>

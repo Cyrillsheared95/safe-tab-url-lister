@@ -1,0 +1,91 @@
+{
+  "appName": {
+    "message": "Safe Tab URL Lister",
+    "description": "Extension name"
+  },
+  "appDescription": {
+    "message": "List and copy all tab URLs locally. Zero tracking, no servers, minimal permissions.",
+    "description": "Extension description shown in the Chrome Web Store"
+  },
+  "loading": {
+    "message": "Loading...",
+    "description": "Shown while tabs are being fetched"
+  },
+  "tabCount": {
+    "message": "$COUNT$ tab(s)",
+    "description": "Number of tabs displayed in the header",
+    "placeholders": {
+      "count": { "content": "$1" }
+    }
+  },
+  "includeTitles": {
+    "message": "Include page titles",
+    "description": "Checkbox label for including page titles"
+  },
+  "allWindows": {
+    "message": "Include all windows",
+    "description": "Checkbox label for including all Chrome windows"
+  },
+  "formatLabel": {
+    "message": "Format:",
+    "description": "Label for the output format selector"
+  },
+  "formatPlain": {
+    "message": "Plain URLs",
+    "description": "Format option: plain URLs"
+  },
+  "formatMarkdown": {
+    "message": "Markdown links",
+    "description": "Format option: Markdown [title](url)"
+  },
+  "formatJson": {
+    "message": "JSON",
+    "description": "Format option: JSON array"
+  },
+  "formatCsv": {
+    "message": "CSV",
+    "description": "Format option: CSV"
+  },
+  "outputAriaLabel": {
+    "message": "Tab URL list, read-only",
+    "description": "Accessible label for the output textarea"
+  },
+  "refresh": {
+    "message": "Refresh",
+    "description": "Button label to refresh the tab list"
+  },
+  "refreshAriaLabel": {
+    "message": "Refresh tab list",
+    "description": "Accessible label for the refresh button"
+  },
+  "copy": {
+    "message": "Copy",
+    "description": "Button label to copy the list to clipboard"
+  },
+  "copyAriaLabel": {
+    "message": "Copy list to clipboard",
+    "description": "Accessible label for the copy button"
+  },
+  "copied": {
+    "message": "List copied to clipboard.",
+    "description": "Status message after successful copy"
+  },
+  "copyFailed": {
+    "message": "Copy failed: $ERROR$",
+    "description": "Status message when copy fails",
+    "placeholders": {
+      "error": { "content": "$1" }
+    }
+  },
+  "tabsError": {
+    "message": "Could not read tabs: $ERROR$",
+    "description": "Status message when tabs cannot be fetched",
+    "placeholders": {
+      "error": { "content": "$1" }
+    }
+  },
+  "noTabs": {
+    "message": "No tabs found.",
+    "description": "Shown when zero tabs are returned"
+  }
+}
